@@ -9,9 +9,17 @@ body{
     display: flex;
     justify-content: center;
     background-color:transparent;
-    canvas{
-        border: 1px solid red;
+    .gamecontainer{
+        // width: 600px;
+        // height: 350px;
+
+        canvas{
+            border: 1px solid red;
+            image-rendering: pixelated;
+            
+        }
     }
+   
     .button_container{
         display: flex;
         flex-direction: column;
